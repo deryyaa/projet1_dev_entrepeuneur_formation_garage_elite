@@ -30,6 +30,7 @@
  }
  .droite{
     padding-left: 14rem;
+    margin-top: -41px;
  }
 
 .mention{
@@ -41,4 +42,50 @@
   justify-content: end;
   margin-right: 215px;
   margin-top: 30px;
+}
+
+.liste{
+   color: white;
+   list-style:none;
+   font-size: 15px;
+}
+.centre{
+   display: flex;
+   justify-content: center;
+}
+h4{
+   font-size: 22px;
+   color: white;
+   font-weight: 400;
+}
+
+.pfooter{
+   font-size: 13px;
+}
+
+.gauche{
+
+}
+.conteuneurfooter{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:50px;
+   margin-top: -26px;
+   margin-left: -18px;
+}
+.centre h4{
+   margin:0%;
+}
+.conteuneurfooter ul{
+   padding-left:  20px;
+}
+.conteuneurfooter .uldroite{
+   padding-left:  0px;
+}
+
+
+.droite .pfooter{
+   display: flex;
+   justify-content: center;
 }
