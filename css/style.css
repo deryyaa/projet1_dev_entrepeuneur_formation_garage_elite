@@ -1,8 +1,13 @@
 p{
     color: white;
+    font-size: 20px;
 }
 
+.pp{
+    color: white;
+    font-size: 25px;
 
+}
 .two{
     display: flex;
     justify-content: flex-end;
@@ -20,11 +25,17 @@ body{
 a{
     color: white;
     text-decoration: none;
+    font-size: 0.8em;
+}
+a:active{
+    text-decoration: underline;
+
 }
 
 h2{
     color:white;
-    font-size: 3.1em;
+    font-size: 2em;
+    font-weight: bolder;
 }
 
 .milieu{
@@ -48,13 +59,22 @@ h3{
   
 
 }
+
 .two2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 500px;
-    gap:10px;
 
+
+ }
+
+ .two3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    margin-top:-55px;
  }
  .conteuneur{
     display: flex;
@@ -62,7 +82,14 @@ h3{
     align-items: center;
     gap:50px;
 
+
  }
+.conteuneurp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+}
 
  .conteuneur1{
     display: flex;
@@ -75,21 +102,22 @@ h3{
  }
 
 .titre{
-    color:white;
+    color:black;
     font-size:1.5em;
 }
+
 .colornoir{
     color: black;
 }
 
 .colornoirt{
     color: black;
-    font-size:1.5em;
-    font-weight: bold;
+    font-size:1.4em;
 }
 .finpage{
     display: flex;
     justify-content: flex-end;
+    width: 675px;
 
 }
 .nompre{
