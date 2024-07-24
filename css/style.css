@@ -15,6 +15,7 @@ body{
     background-color: black;
     margin:auto;
     padding:auto;
+    font-family: 'Inter';font-size: 22px;
 }
 a{
     color: white;
