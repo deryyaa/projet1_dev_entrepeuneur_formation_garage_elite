@@ -123,7 +123,8 @@ h3{
     align-items: flex-start;
     padding: 20px;
     color:white;
-
+    align-items: center;
+    gap:135px;
 
 }
 
@@ -133,6 +134,7 @@ h3{
     padding: 20px;
     color:white;
     flex-direction: column;
+    gap:15px;
 }
 
 .class1{
@@ -157,9 +159,9 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 500px;
+    width: 560px;
     background-color: #6AA7EE;
-    padding: 0%;
+    padding: 1%;
 
  }
 
@@ -192,6 +194,7 @@ h3{
     align-items: center;
     flex-direction: column;
     padding: 100px;
+    margin-left: -97px;
 
 }
 
@@ -199,6 +202,7 @@ h3{
     color:white;
     font-size:1.5em;
     font-weight: bold;
+    margin-left: 15px;
 
 }
 .vertical-line{
@@ -207,4 +211,43 @@ h3{
     height: 130px;
     margin: 0 20px;
   }
+.pfont{
+    color: #666666;
+    font-family:'Noto sans';
 
+}
+input,textarea {
+    border-radius:10px;
+    font-size: 1em;
+
+}
+.taillebull{
+    height: 40px;
+    width: 200px;
+    font-size: 1em;
+}
+
+.taillemsg{
+    height: 50px;
+    width: 550px;
+    font-size: 1em;
+}
+label{
+    display:block;
+
+    float:none;
+
+}
+
+.photo2{
+    background-image: url(../images/image5.jpg);
+    padding: 140px;
+    margin-left: 1rem;
+    width: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.elementcentre{
+        margin-left: 136px;
+}

@@ -9,9 +9,12 @@
     <link href="css/header.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
 </head>
 
 <body>
@@ -93,22 +96,38 @@
 </div>
 <div class="milieu2">
     <p  class="colornoirt"><B>CONTACT</B></p>
+
+
+
+
+
+<div class="formulaire">
 <form method="" >
     <div class="nompre">
-        <input type="nom" placeholder="type here">Nom<br>
-        <input type="prenom" placeholder="type here">Prenom<br>
-        
+        <div>
+            <label for="nom">Nom</label>
+            <input class="taillebull" type="text" placeholder="type here" id="nom">
+        </div>
+        <div>
+            <label for="prenom">Prénom</label>
+            <input class="taillebull" type="text" placeholder="type here" id="prenom">
+        </div>
     </div>
+
     <div class="msg">
-        <input type="mail" placeholder="type here">mail<br>
-        <label for="message" placeholder="type here">message</label><br>
-        <textarea name="message"  id="message"></textarea>
+        <label for="mail">Mail</label>
+        <input  class="taillemsg"type="text" placeholder="type here" id="mail">
+        <label for="message" >Message</label>
+        <textarea name="message"  placeholder="type here" id="message" cols="10" rows="5"></textarea>
     </div>
 </form>
+</div>
+
 <div class="conteuneur1">
-    <a href="" class="class1">Envoyer</a>
+    <input type="submit"  value="Envoyer" class="class1">
     </div>
 </div>
+
 <footer>
     <div class="fin">
         <div class="photof">
