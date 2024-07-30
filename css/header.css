@@ -6,45 +6,29 @@
 
 
 }
-.entete2{
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
+.photo{
+    width: 30%;
+    margin-left: 6rem;
+    margin-top: 1rem;
 
-    width: 100%;
 }
-
-.oneh{
+.bloque1{
     display: flex;
     justify-content: flex-start;
     gap: 80px;
     align-items: center;
     width: 100%;
 }
-.oneh:hover {
+.bloque1:hover {
 	text-decoration: underline;
 }
-.twooh{
+
+.bloque2{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
     padding-right: 10rem;
-
-}
-
-.twoh{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: row;
-    
-
-}
-
-.photo{
-    width: 30%;
-    margin-left: 6rem;
-    margin-top: 1rem;
 
 }
 
@@ -79,3 +63,4 @@ a:hover{
     text-decoration: underline;
 
 }
+
