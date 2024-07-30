@@ -31,7 +31,7 @@ a{
 
 h2{
     color:white;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bolder;
 }
 
@@ -256,4 +256,23 @@ label{
 .bodyindex{
     background-image: url(../images/body.png );
 
+}
+.conteneur5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+em{
+    text-align: center;
+	color: transparent;
+	background-image: linear-gradient(60deg,#6AA7EE, #0047FF);
+	background-clip: text;
+	padding-bottom: .2rem;
+    font-style: normal;
+
+}
+
+.gras{
+    font-weight: bold;
 }
