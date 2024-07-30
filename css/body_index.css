@@ -9,6 +9,7 @@ body{
     background-position: center;
     background-size: cover;
     backdrop-filter: saturate(20%);
+    background-repeat: no-repeat;
 }
 .conteneur5{
     display: flex;
