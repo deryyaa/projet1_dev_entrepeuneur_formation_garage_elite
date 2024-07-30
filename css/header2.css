@@ -1,0 +1,79 @@
+
+
+
+.entete2{
+    background-color: black;
+    display: flex;
+    opacity: 0.63;
+    width: 100%;
+
+}
+
+.oneh{
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+}
+.oneh:hover {
+	text-decoration: underline;
+}
+.twooh{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-right: 10rem;
+
+}
+
+.twoh{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+
+.photo{
+    width: 30%;
+    margin-left: 6rem;
+    margin-top: 1rem;
+
+}
+
+.btn{
+    display: inline-block;
+    font-family :'Manrope', sans-serif ;
+    background: linear-gradient(#6AA7EE, #0047FF);
+    color: white;
+    border-radius: 50px;
+    padding:15px 30px;
+ 
+}
+.btn:hover{
+
+    background: linear-gradient(#0047FF, #6AA7EE);
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+    padding: 60px;
+ }
+ a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+.opacite{
+    opacity: 0.9;
+}
