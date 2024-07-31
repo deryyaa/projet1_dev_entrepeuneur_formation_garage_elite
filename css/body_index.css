@@ -47,3 +47,29 @@ em{
 
 
 
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 0.7em;
+    }
+
+    .bodyindex {
+        background-size: contain;
+        padding: 10px;
+    }
+
+    .conteneur5 {
+        padding: 10px;
+    }
+}

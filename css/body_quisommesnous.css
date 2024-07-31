@@ -119,3 +119,66 @@ margin-bottom: -10px;
 
  }
 
+ @media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    .englobe {
+        padding: 20px;
+        padding-bottom: 60px;
+    }
+
+    .divphoto {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .photo2 {
+        padding: 70px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .centrer, .centrer_fond {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .partie {
+        padding: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .elementcentre {
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 0.7em;
+    }
+
+    .titrepg3 {
+        font-size: 1.2em;
+        margin-left: 0;
+    }
+
+    .conteuneur3, .conteuneur4 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+}

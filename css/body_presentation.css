@@ -177,3 +177,48 @@ label{
     float:none;
 
 }
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 0.7em;
+    }
+
+    .conteuneur, .conteuneurp, .conteuneur1 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .centrer, .finpage, .nompre {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .centrer_colone, .centre_fond {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .taillebull, .taillemsg {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .class1 {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
